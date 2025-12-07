@@ -1,0 +1,30 @@
+:root {
+   --bg-color: #1977CC;
+
+}
+.bg-blue {
+   background-color: var(--bg-color);
+} 
+.my-tag {
+   color: #2c4964;
+}
+#hero-section {
+     background-image: url(../images/hero-bg.jpg);
+     background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100%;
+   
+}
+.py-6 {
+   padding: 65px 0;
+}
+.first-heading {
+   font-size: 48px;
+}
+.hero-para {
+   color:#444444;
+}
+.learn-met {
+   background-color: #ffffff17;
+}
