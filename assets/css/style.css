@@ -2,29 +2,102 @@
    --bg-color: #1977CC;
 
 }
+
 .bg-blue {
    background-color: var(--bg-color);
-} 
+}
+
 .my-tag {
    color: #2c4964;
 }
+
 #hero-section {
-     background-image: url(../images/hero-bg.jpg);
-     background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      height: 100%;
-   
+   background-image: url(../images/hero-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100%;
+
 }
+
 .py-6 {
    padding: 65px 0;
 }
+
 .first-heading {
    font-size: 48px;
 }
+
 .hero-para {
-   color:#444444;
+   color: #444444;
 }
+
 .learn-met {
    background-color: #ffffff17;
+}
+.service-heading {
+   margin-bottom: 40px;
+}
+.service-heading h2 {
+   padding-bottom: 5px;
+   font-size: 32px;
+   position: relative;
+
+
+}
+.service-heading h2::after {
+   content: "";
+   width: 160px;
+   height: 1px;
+   background-color: gray;
+   bottom: -15px;
+   left: calc(50% - 80px);
+   position: absolute;
+}
+.service-heading h2::before {
+   content: "";
+   width: 60px;
+   height: 2px;
+   background-color: var(--bg-color);
+   bottom: -15.5px;
+   left: calc(50% - 30px);
+   position: absolute;
+   z-index: 999;
+}
+
+
+.stat-icon {
+   height: 46px;
+   width: 46px;
+   top: -20px;
+   left: calc(50% - 23px);
+
+}
+
+.service-icon {
+   width: 60px;
+   height: 60px;
+   box-shadow: -8px -8px 0px 0px #1977cc38;
+}
+
+.stat-service:hover {
+   background-color: var(--bg-color);
+   color: white;
+   transition: all .5s ease;
+}
+
+.stat-service:hover h3 {
+   color: white;
+   transition: all .5s ease;
+}
+
+.stat-service:hover div {
+   background-color: white;
+   color: var(--bg-color) !important;
+      box-shadow: -8px -8px 0px 0px #a9d1fa79;
+   transition: all .5s ease;
+
+}
+.stat-service p {
+   font-size: 14px;
 }
