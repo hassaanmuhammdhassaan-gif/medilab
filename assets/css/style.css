@@ -49,6 +49,7 @@
    content: "";
    width: 160px;
    height: 1px;
+   display: block;
    background-color: gray;
    bottom: -15px;
    left: calc(50% - 80px);
@@ -59,6 +60,7 @@
    width: 60px;
    height: 2px;
    background-color: var(--bg-color);
+   display: block;
    bottom: -15.5px;
    left: calc(50% - 30px);
    position: absolute;
