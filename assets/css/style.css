@@ -35,16 +35,18 @@
 .learn-met {
    background-color: #ffffff17;
 }
+
 .service-heading {
    margin-bottom: 40px;
 }
+
 .service-heading h2 {
    padding-bottom: 5px;
    font-size: 32px;
    position: relative;
 
-
 }
+
 .service-heading h2::after {
    content: "";
    width: 160px;
@@ -55,6 +57,7 @@
    left: calc(50% - 80px);
    position: absolute;
 }
+
 .service-heading h2::before {
    content: "";
    width: 60px;
@@ -66,7 +69,6 @@
    position: absolute;
    z-index: 999;
 }
-
 
 .stat-icon {
    height: 46px;
@@ -96,10 +98,54 @@
 .stat-service:hover div {
    background-color: white;
    color: var(--bg-color) !important;
-      box-shadow: -8px -8px 0px 0px #a9d1fa79;
+   box-shadow: -8px -8px 0px 0px #a9d1fa79;
    transition: all .5s ease;
 
 }
+
 .stat-service p {
    font-size: 14px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+   .nav-pills .nav-link.active,
+   .nav-pills .show>.nav-link {
+      background-color: transparent;
+      color: var(--bg-color);
+       border-right: 2px solid var(--bg-color);
+      border-radius: 0;
+   }
+}
+
+.tab-content {
+   padding-left: 25px;
+   position: relative;
+   left: -2px;
+}
+
+.my-will {
+   flex: 1;
+}
+
+.my-will a {
+   color: black;
+
+}
+.my-will a:hover {
+   color: var(--bg-color)
+}
+
+.my-will-2 {
+   flex: 4;
+
+}
+
+@media screen and (min-width: 768px) {
+   .my-will-2 { 
+      border-left: 2px solid rgba(211, 211, 211, 0.393);
+     
+   }
+
 }
