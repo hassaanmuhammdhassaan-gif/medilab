@@ -114,7 +114,7 @@
    .nav-pills .show>.nav-link {
       background-color: transparent;
       color: var(--bg-color);
-       border-right: 2px solid var(--bg-color);
+      border-right: 2px solid var(--bg-color);
       border-radius: 0;
    }
 }
@@ -133,6 +133,7 @@
    color: black;
 
 }
+
 .my-will a:hover {
    color: var(--bg-color)
 }
@@ -143,15 +144,17 @@
 }
 
 @media screen and (min-width: 768px) {
-   .my-will-2 { 
+   .my-will-2 {
       border-left: 2px solid rgba(211, 211, 211, 0.393);
-     
+
    }
 
-} 
+}
+
 .left-Walter {
    width: 30%;
 }
+
 .right-Walter {
    width: 70%;
 }
@@ -165,10 +168,12 @@
    height: 1px;
    background-color: rgba(211, 211, 211, 0.655);
 }
+
 .para-span {
    font-size: 14px;
 }
- .circle-icon {
+
+.circle-icon {
    width: 40px;
    height: 40px;
    background-color: rgba(230, 230, 230, 0.436);
@@ -177,42 +182,84 @@
    align-items: center;
 
    border-radius: 50%;
- }
-  .circle-icon:hover {
+}
+
+.circle-icon:hover {
    background-color: var(--bg-color);
 
-    transition: all .5s ease;
- }
- .circle-icon:hover i {
+   transition: all .5s ease;
+}
+
+.circle-icon:hover i {
    color: white;
    transition: all .5s ease;
- }
- .my-shadow-card {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
- }
- @media  screen and (max-width:468px) {
+}
+
+.my-shadow-card {
+   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:468px) {
    .my-shadow-card {
       flex-direction: column;
       align-items: center;
       text-align: center;
-      
+
    }
+
    .right-Walter span::after {
-   content: "";
-   position: absolute;
-   bottom: -12px;
-   left: calc(50% - 25px);
-   width: 50px;
-   height: 1px;
-   background-color: rgba(211, 211, 211, 0.655);
-}
-.socials  {
-   display: flex;
-   justify-content: center;
+      content: "";
+      position: absolute;
+      bottom: -12px;
+      left: calc(50% - 25px);
+      width: 50px;
+      height: 1px;
+      background-color: rgba(211, 211, 211, 0.655);
+   }
+
+   .socials {
+      display: flex;
+      justify-content: center;
+   }
+
+   .right-Walter h4 {
+      margin-top: 10px;
+   }
 
 }
-.right-Walter h4 {
-   margin-top: 10px;
+
+#accordian-section {
+   background-color: #f1f7fc;
 }
-   
- }
+
+.accordion-button:not(.collapsed) {
+   background-color: var(--bg-color);
+   color: white;
+}
+.accordion-button:not(.collapsed):hover,text {
+   color: white;
+}
+.accordion-button,text {
+   font-size: 19px;
+   font-weight: 500;
+   color: #2c4964;
+}
+.accordion-flush .accordion-item {
+   border-radius: 5px;
+   margin-bottom: 15px;
+   overflow: hidden;
+}
+
+.accordion-body {
+   background-color: var(--bg-color);
+   color: white;
+}
+
+.accordion-button:focus {
+   box-shadow: none;
+
+}
+
+.accordion-button:hover,text {
+   color: var(--bg-color);
+}
