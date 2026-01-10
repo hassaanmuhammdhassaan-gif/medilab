@@ -236,14 +236,19 @@
    background-color: var(--bg-color);
    color: white;
 }
-.accordion-button:not(.collapsed):hover,text {
+
+.accordion-button:not(.collapsed):hover,
+text {
    color: white;
 }
-.accordion-button,text {
+
+.accordion-button,
+text {
    font-size: 19px;
    font-weight: 500;
    color: #2c4964;
 }
+
 .accordion-flush .accordion-item {
    border-radius: 5px;
    margin-bottom: 15px;
@@ -260,6 +265,34 @@
 
 }
 
-.accordion-button:hover,text {
+.accordion-button:hover,
+text {
    color: var(--bg-color);
+}
+
+.parent-testimonial {
+   box-shadow: 0px 0px 10px 1px #8180801a;
+}
+
+.left-second {
+   flex: 1;
+}
+
+.right-second {
+   flex: 5;
+}
+
+.right-second h5,
+p {
+   margin-bottom: 0;
+}
+
+.right-second i {
+   color: gold;
+}
+
+.span-para span {
+   color: #1979cc7b;
+   font-size: 20px;
+
 }
