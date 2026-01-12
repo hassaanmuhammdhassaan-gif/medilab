@@ -305,3 +305,13 @@ p {
 .gallery-img:hover img {
    transform: scale(1.1);
 }
+.map-icons {
+   height: 50px;
+   width: 50px;
+   background-color: var(--bg-color);
+}
+.form-control:focus {
+   box-shadow: none;
+   outline: none;
+   border: 1px solid var(--bg-color);
+}
