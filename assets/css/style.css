@@ -296,22 +296,63 @@ p {
    font-size: 20px;
 
 }
+
 .gallery-img {
    overflow: hidden;
 }
+
 .gallery-img img {
    transition: all .5s ease;
 }
+
 .gallery-img:hover img {
    transform: scale(1.1);
 }
+
 .map-icons {
    height: 50px;
    width: 50px;
    background-color: var(--bg-color);
 }
+
 .form-control:focus {
    box-shadow: none;
    outline: none;
    border: 1px solid var(--bg-color);
+}
+
+.Medi-footer {
+   background-color: #1979cc14;
+   border-top: .5px solid #3088d469;
+}
+
+.footer-icon a {
+   width: 40px;
+   height: 40px;
+   transition: all .5s ease;
+   border: 1px solid #44444462;
+   border-radius: 50%;
+}
+
+.footer-icon a:hover {
+   border-color: var(--bg-color);
+}
+
+.footer-icon a:hover i {
+   color: var(--bg-color);
+}
+.footer-icon a i {
+   transition: all .5s ease;
+}
+.footer-list li a {
+   font-size: 14px;
+}
+.footer-section {
+   border-top: 1px solid #4444443e;
+}
+.footer-section p {
+   font-size: 14px;
+}
+.footer-section :last-child span {
+   color: var(--bg-color);
 }
