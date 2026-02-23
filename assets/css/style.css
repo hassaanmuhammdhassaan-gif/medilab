@@ -11,6 +11,7 @@
    color: #2c4964;
 }
 
+
 #hero-section {
    background-image: url(../images/hero-bg.jpg);
    background-repeat: no-repeat;
@@ -355,4 +356,12 @@ p {
 }
 .footer-section :last-child span {
    color: var(--bg-color);
+}
+.footer-arrow {
+   bottom: 10px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+   background-color: var(--bg-color);
+   border-radius: 4px;
 }
